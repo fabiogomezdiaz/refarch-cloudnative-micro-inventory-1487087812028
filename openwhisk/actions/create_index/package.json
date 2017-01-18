@@ -1,0 +1,8 @@
+{
+  "name": "create_index",
+  "version": "1.0.0",
+  "main": "create_index.js",
+  "dependencies": {
+    "elasticsearch": "12.1.3"
+  }
+}

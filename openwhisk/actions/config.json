@@ -1,0 +1,9 @@
+{
+    "host": "169.46.17.110",
+    "user": "dbuser",
+    "password": "Pass4dbUs3R",
+    "database": "inventorydb",
+    "es_connection_string": "http://bluemix:42e61e27b3fa799f292b22b94f5f70fe@dori-us-east-1.searchly.com",
+    "es_index": "api",
+    "es_doc_type": "items"
+}
