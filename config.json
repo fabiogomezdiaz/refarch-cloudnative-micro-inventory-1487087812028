@@ -1,6 +1,0 @@
-{
-  "host": "ENTER_MYSQL_HOST_IP",
-  "user": "dbuser",
-  "password": "Pass4dbUs3R",
-  "database": "inventorydb"
-}
