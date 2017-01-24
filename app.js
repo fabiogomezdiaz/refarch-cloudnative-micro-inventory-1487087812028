@@ -7,6 +7,7 @@ var bodyParser = require('body-parser');
 
 var items_router = require('./routes/items');
 var consumer = require('./lib/message_hub_consumer');
+var eureka = require('./lib/eureka');
 
 var app = express();
 
@@ -23,6 +24,10 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(items_router);
+
+app.get('/', function (req, res) {
+	res.send('Hello World!')
+})
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
@@ -45,4 +50,7 @@ app.use(function (err, req, res, next) {
 module.exports = app;
 
 // Call MessageHUB consumer
-consumer.get_topic_messages();
+//consumer.get_topic_messages();
+
+// Start Eureka
+eureka.start_eureka();
