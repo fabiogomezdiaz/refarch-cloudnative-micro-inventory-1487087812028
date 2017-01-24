@@ -1,6 +1,6 @@
 {
   "db_host": "PASTE_MYSQL_PUBLIC_IP_HERE",
-  "db_user": "db_user",
+  "db_user": "dbuser",
   "db_password": "Pass4dbUs3R",
   "db_database": "inventorydb",
   "es_connection_string": "",
